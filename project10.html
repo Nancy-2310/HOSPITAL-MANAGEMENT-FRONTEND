@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PROJECT 10</title>
+    <style>
+        body{
+            background-image: url('https://github.com/pwlive/fullstackwebdevelopment/blob/main/11%20Feb%202023/Multi-Page%20Website/images/stethoscope.png?raw=true');
+            background-size: 40% 100%;
+            background-repeat: no-repeat;
+            background-position-x: 330px;
+            background-position-y: 100px;
+        }
+        .main{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            gap: 40px;
+            height: 60vh;
+            width: 90vw;
+        }
+        nav{
+            display: flex;
+            justify-content: space-between;
+            position: relative;
+            top: 20px;
+        }
+        ul{
+            list-style-type: none;
+            font-weight: 600;
+            display: flex;
+            gap: 60px;
+            position: relative;
+            right: 150px;
+        }
+        .medifine{
+            height: 30px;
+            width: 100px;
+            position: relative;
+            left: 150px;
+            top: 10px;
+        }
+        .box{
+            top: 100px;
+            left: 150px;
+            display: flex;
+            justify-content: space-between;
+            height: 80%;
+        }
+        .toparrow{
+            height: 20px;
+            width: 20px;
+        }
+        .bottomarrow{
+            height: 20px;
+            width: 20px;
+            position: relative;
+            left: 400px;
+        }
+        
+        h1{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            word-spacing: 5px;
+            font-weight: 600;
+            font-size: 50px;
+            padding: 0px;
+            margin: 0px;
+        }
+        button{
+            background-color: rgba(9, 147, 9, 0.963);
+            color: white;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            width: 200px;
+            height: 50px;
+            font-size: 20px;
+            border-radius: 20px;
+            border-color: aliceblue;
+            box-shadow: 0;
+        }
+        .doctor{
+            height: 600px;
+            width: 450px;
+            position: relative;
+            bottom: -10%;
+            background-image: url('https://github.com/pwlive/fullstackwebdevelopment/blob/main/11%20Feb%202023/Multi-Page%20Website/images/greenBox.png?raw=true');
+            background-size: 100% 80%;
+            background-position-y: 140px;
+            background-repeat: no-repeat;
+        }
+        .hero1{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            position: relative;
+            top: 100px;
+            left: 200px;
+            
+        }
+        .top{
+            height: 20%;
+        }
+        .mainimage{
+            height: 100px;
+            width: 100px;
+            z-index: -1;
+        }
+        .hero2{
+            position: relative;
+        }
+        a{
+            text-decoration: none;
+            color: black;
+        }
+        a:hover{
+            color: blue;
+            text-decoration: underline;
+        }
+        button:hover{
+            color: black;
+            background-color: #b6f2c3;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="top">
+            <nav>
+                <img src="https://github.com/pwlive/fullstackwebdevelopment/blob/main/11%20Feb%202023/Multi-Page%20Website/images/logo.png?raw=true" alt="" class="medifine">
+
+                <ul>
+                    <!-- menus -->
+                    <a href="project10.html">Home</a>
+                    <a href="project10about.html">About Us</a>
+                    <a href="project10contact.html">Contact</a>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="box">
+            <div class="hero1">
+                <img src="https://github.com/pwlive/fullstackwebdevelopment/blob/main/11%20Feb%202023/Multi-Page%20Website/images/topAngle.png?raw=true" alt="" class="toparrow">
+                <h1>Complete Health <br>Care Solutions for <br>Everyone</h1>
+                <h6>
+                We're always available for our Patients with emergen problems. You can easily reach <br> us 24/7. We focused on highest quality. 
+                </h6>
+                <button>Make Appointement</button>
+                <img src="https://github.com/pwlive/fullstackwebdevelopment/blob/main/11%20Feb%202023/Multi-Page%20Website/images/bottomAngle.png?raw=true" alt="" class="bottomarrow">
+            </div>
+
+            <div class="hero2">
+                <img src="https://github.com/pwlive/fullstackwebdevelopment/blob/main/11%20Feb%202023/Multi-Page%20Website/images/doctor.png?raw=true" alt="" class="doctor">
+            </div>
+
+        </div>
+    </div>
+</body>
+</html>

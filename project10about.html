@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ABOUT US</title>
+    <style>
+        .main{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            gap: 20px;
+            height: 97vh;
+            width: 98vw;
+            
+        }
+        nav{
+            display: flex;
+            justify-content: space-between; 
+            position: relative;  
+            bottom: 60px;  
+        }
+        ul{
+            list-style-type: none;
+            font-weight: 600;
+            display: flex;
+            gap: 60px;
+            position: relative;
+            right: 150px;
+        }
+        .medifine{
+            height: 30px;
+            width: 100px;
+            position: relative;
+            left: 150px;
+            top: 10px;
+        } 
+        a{
+            text-decoration: none;
+            color: black;
+        }
+        a:hover{
+            color: blue;
+            text-decoration: underline;
+        }
+        p{  
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            text-align: center;
+            font-size: smaller;
+            font-weight:400;
+        }
+        h1{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            color:  rgba(9, 147, 9, 0.963);
+        }
+        .box{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 10px;
+            position: relative;
+            bottom: 100px;
+        }
+        .top{
+            height: 20%;
+        }
+        .hero{
+            height: fit-content;
+            width: 150px;
+            border: 2px solid black;
+            border-radius: 10px;
+            box-shadow: 3px 3px 3px 3px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 0px;
+            margin: 0%;
+            justify-content: center;
+        }
+        .box2{
+            display: flex;
+            gap: 20px;
+        }
+        .hero2{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            color:rgba(9, 147, 9, 0.963);;
+        }
+        span{
+            position: relative;
+            bottom: 10px;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="top">
+            <nav>
+                <img src="https://github.com/pwlive/fullstackwebdevelopment/blob/main/11%20Feb%202023/Multi-Page%20Website/images/logo.png?raw=true" alt="" class="medifine">
+
+                <ul>
+                    <!-- menus -->
+                    <a href="project10.html">Home</a>
+                    <a href="project10about.html">About Us</a>
+                    <a href="project10contact.html">Contact</a>
+                </ul>
+            </nav>
+        </div>
+        <div class="box">
+            <h1>Best and Experienced Faculties</h1>
+            <p>We had bring the best experts of medical field to provide you the service as <br>possible. We are trying our best to serve the world with our facilites, so that <br> everyone can have a the medical facility to avail.</p>
+            <div class="box2">
+                <div class="hero">
+                    <h3 class="hero2">20+</h3>
+                    <span>Doctors</span>
+                </div>
+                <div class="hero">
+                    <h3 class="hero2">50,000+</h3>
+                    <span>Customers</span>
+                </div>
+                <div class="hero">
+                    <h3 class="hero2">500+</h3>
+                    <span>Students</span>
+                </div>
+            </div>
+        </div>  
+    </div>
+</body>
+</html>

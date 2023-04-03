@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONTACTUS</title>
+    <style>
+        .main{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            gap: 20px;
+            height: 97vh;
+            width: 98vw;
+        }
+        nav{
+            display: flex;
+            justify-content: space-between;
+            position: relative;
+            top: -20px;
+        }
+        ul{
+            list-style-type: none;
+            font-weight: 600;
+            display: flex;
+            gap: 60px;
+            position: relative;
+            right: 150px;
+        }
+        .medifine{
+            height: 30px;
+            width: 100px;
+            position: relative;
+            left: 150px;
+            top: 10px;
+        }
+        .box{
+            top: 100px;
+            left: 150px;
+            display: flex;
+            justify-content: space-between;
+            height: 80%;
+        }
+        a{
+            text-decoration: none;
+            color: black;
+        }
+        a:hover{
+            color: blue;
+            text-decoration: underline;
+        }
+        .vertical{
+            display: flex;
+            flex-direction: column;
+            width: 80%;
+            margin-left: 10%;
+            
+        }
+        h2{
+            text-align: center;
+        }
+        .box2{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        input , textarea{
+            padding: 5px;
+            border-radius: 10px;
+            border-width: 0px;
+            
+        } 
+        .hero{
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+        button{
+            width: 80%;
+            height: 30px;
+            margin-left: 10%;
+            border-radius: 10px;
+            background-color:rgba(9, 147, 9, 0.963); 
+            color: white;
+            font-size: 20px;
+            font-weight: bolder;
+        }
+        form{
+            background-color: rgb(245, 229, 229);
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="top">
+            <nav>
+                <img src="https://github.com/pwlive/fullstackwebdevelopment/blob/main/11%20Feb%202023/Multi-Page%20Website/images/logo.png?raw=true" alt="" class="medifine">
+
+                <ul>
+                    <!-- menus -->
+                    <a href="project10.html">Home</a>
+                    <a href="project10about.html">About Us</a>
+                    <a href="project10contact.html">Contact</a>
+                </ul>
+            </nav>
+        </div>
+        
+        <div class="box2">
+            <form action="" method="post" class="form"> 
+                <h2>Contact Form</h2>
+                <div class="hero">
+                <div class="vertical">
+                    <label for="name">Name</label>
+                    <input type="text" name="name" id="name" placeholder="Enter your name">
+                </div>
+                <div class="vertical">
+                    <label for="email">Email</label>
+                    <input type="text" name="email" id="email" placeholder="Enter your email">
+                </div>
+                <div class="vertical">
+                    <label for="message">Message</label>
+                    <textarea name="message" id="message" cols="30" rows="10" placeholder="Enter your message"></textarea>
+                </div>
+                <button type="submit">Submit</button>
+                <button type="reset">Reset</button>
+                </div>  
+            </form>
+        </div>
+    </div>
+</body>
+</html>
